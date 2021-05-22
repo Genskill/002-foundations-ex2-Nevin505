@@ -20,7 +20,9 @@ int main(void)
 
       for(j=i;j>0;j--){
 
- 	     printf("#"); 	           }
+       printf("#");       
+
+      }
 
       printf("\n");   
 
@@ -36,17 +38,17 @@ int main(void)
 
        for(k=i;k<rows;k++){
 
- 	      printf(" "); 	     
+        printf(" ");       
 
        }
 
        for(j=0;j<i;j++){
 
- 	      printf("#");
+        printf("#");
 
- 	    }
+      }
 
- 	    printf("\n");
+      printf("\n");
 
      } 
 
